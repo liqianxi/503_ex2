@@ -15,8 +15,7 @@ dt-launchfile-init
 # launching app
 #roscore &
 #sleep 5
-dt-exec rosrun my_package my_publisher_node.py
-
+dt-exec roslaunch exercise-2 multiple_nodes.launch veh:="$VEHICLE_NAME"
 # ----------------------------------------------------------------------------
 # YOUR CODE ABOVE THIS LINE
 
